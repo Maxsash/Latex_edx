@@ -1,11 +1,11 @@
-\documentclass{book}
+\documentclass{article}
 \title{LaTeX Document}
-\author{Maxsash}
+\author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
 \date{\today}
 \begin{document}
 	\maketitle
-
-	\chapter{Overview}
+	%chapter doesn't work with article class. Try book.
+	%\chapter{Overview}
 
 	\section{Overall Description}
 	
