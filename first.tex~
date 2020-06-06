@@ -2,10 +2,17 @@
 \title{LaTeX Document}
 \author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
 \date{\today}
-\usepackage[a5paper, margin=2in]{geometry}
+\usepackage[a5paper, margin=1in]{geometry}
 \begin{document}
 	\maketitle
 	\tableofcontents
+
+	% set page numbering style [arabic, roman, alph, Alph, etc]
+	\pagenumbering{roman}
+
+	% pagestyle is for entire document. \thispagestyle for current page.
+	% Won't show any page numbers. 
+	\pagestyle{empty}
 
 	%chapter doesn't work with article class. Try book.
 	%\chapter{Overview}
@@ -13,7 +20,10 @@
 	\section{Overall Description}
 	
 	\section{Introduction}
-
+	%shows the page number at header position for current page.
+	\thispagestyle{headings}
+	% Set the current page number.
+	\setcounter{page}{503}
 	\paragraph{Optional title of paragraph}
 	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
 
