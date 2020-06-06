@@ -2,14 +2,51 @@
 \title{LaTeX Document}
 \author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
 \date{\today}
+\usepackage[a5paper, margin=2in]{geometry}
 \begin{document}
 	\maketitle
+	\tableofcontents
+
 	%chapter doesn't work with article class. Try book.
 	%\chapter{Overview}
 
 	\section{Overall Description}
 	
 	\section{Introduction}
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
+	\paragraph{Optional title of paragraph}
+	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
+
 	\paragraph{Optional title of paragraph}
 	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
 
