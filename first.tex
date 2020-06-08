@@ -1,3 +1,5 @@
+% Using two columns for the document.
+% \documentclass[twocolumn]{article}
 \documentclass{article}
 \title{LaTeX Document}
 \author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
@@ -6,6 +8,7 @@
 \usepackage{lipsum}
 % To use the geometry- landscape property in a range.
 \usepackage{pdflscape}
+\usepackage{multicol}
 
 \begin{document}
 	\maketitle
@@ -28,9 +31,17 @@
 		\lipsum[1-2]
 	\end{landscape}
 		
-	\section{What comes before Inroduction?}
-		\lipsum[1-3]
-		Now this text is going to have a footnote.\footnote{Wow, here it is!}
+	% setting options for multiple columns.
+	\setlength{\columnsep}{20pt}
+	\setlength{\columnseprule}{1pt}
+	\begin{multicols}{3}
+		\section{What comes before Inroduction?}
+			\lipsum[1-3]
+			
+			\columnbreak
+
+			Now this text is going to have a footnote.\footnote{Wow, here it is!}
+	\end{multicols}
 
 	\section{Introduction}
 
