@@ -2,14 +2,18 @@
 \title{LaTeX Document}
 \author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
 \date{\today}
-\usepackage[a5paper, margin=1in]{geometry}
+%\usepackage[a5paper, margin=1in, landscape]{geometry}
 \usepackage{lipsum}
+% To use the geometry- landscape property in a range.
+\usepackage{pdflscape}
+
 \begin{document}
 	\maketitle
 
 	% toc is updated after building twice.
 	\tableofcontents
-
+	% change the page
+	\pagebreak
 	% set page numbering style [arabic, roman, alph, Alph, etc]
 	\pagenumbering{roman}
 
@@ -19,18 +23,26 @@
 
 	%chapter doesn't work with article class. Try book.
 	%\chapter{Overview}
+	\begin{landscape}
+		\section{Overall Description}
+		\lipsum[1-2]
+	\end{landscape}
+		
+	\section{What comes before Inroduction?}
+		\lipsum[1-3]
+		Now this text is going to have a footnote.
+		\footnote{Wow, here it is!}
 
-	\section{Overall Description}
-	
 	\section{Introduction}
 
-	% Generate 10 paragraphs of random text.
-	\lipsum
+		% Generate 10 paragraphs of random text.
+		\lipsum[1-10]
 
-	%shows the page number at header position for current page.
-	\thispagestyle{headings}
-	% Set the current page number.
-	\setcounter{page}{503}
+		%shows the page number at header position for current page.
+		\thispagestyle{headings}
+		% Set the current page number.
+		\setcounter{page}{503}
+
 	\paragraph{Optional title of paragraph}
 	A paragraph is supposed to go here. Am I really going to type or bother to copy paste a whole paragraph from somewhere? Too indecisive for that. I do enjoy writing, or rather typing up random stuff like this so I guess I will go with this. This many words should be enough for our purposes. Which reminds me, what was our purpose again?
 
