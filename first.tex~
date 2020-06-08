@@ -3,8 +3,11 @@
 \author{Maxsash, \\Collated by Maxsash} %\\ creates a new line.
 \date{\today}
 \usepackage[a5paper, margin=1in]{geometry}
+\usepackage{lipsum}
 \begin{document}
 	\maketitle
+
+	% toc is updated after building twice.
 	\tableofcontents
 
 	% set page numbering style [arabic, roman, alph, Alph, etc]
@@ -20,6 +23,10 @@
 	\section{Overall Description}
 	
 	\section{Introduction}
+
+	% Generate 10 paragraphs of random text.
+	\lipsum
+
 	%shows the page number at header position for current page.
 	\thispagestyle{headings}
 	% Set the current page number.
